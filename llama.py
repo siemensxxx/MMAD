@@ -31,7 +31,7 @@ def ADGenerate(vision_prompt_path,audio_prompt_path):
     print("prompt:",prompt)
     # # llama
     #Set the REPLICATE_API_TOKEN environment variable
-    os.environ["REPLICATE_API_TOKEN"] = "r8_1m6mxJX7vyn9Z5lLJzHauFpORzvK5Hb3fLv5V"
+    os.environ["REPLICATE_API_TOKEN"] = "TOKEN"
     input = {
         "top_p": 1,
         "prompt": prompt,
